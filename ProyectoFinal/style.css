@@ -1,0 +1,199 @@
+body {
+    margin: 0 0;
+}
+
+.logo-netzun img{
+    height: 80px;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-family: cursive;
+}
+
+.enlaces {
+    text-transform: capitalize;
+    align-items: center;
+    display: flex;
+    justify-content:center;
+    gap: 20px;
+}
+
+.enlaces a{
+    text-decoration: none;
+    color: black;
+}
+
+.enlaces a:hover{
+    text-decoration: none;
+    color: gray;
+}
+
+.wrapper {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper {
+    padding: 5px 60px;
+    margin: 0;
+    height: 80px;
+}
+
+.header {
+    padding-top: 0;
+    margin: 0;
+    height: 85px;
+    width: 100%;
+    position: fixed;
+    background-color: rgb(255, 255, 255, 90%);
+    top: 0; 
+    left: 0; 
+    z-index: 1000; 
+}
+
+.portada {
+    margin-top: 85px;
+}
+
+.portada {
+    padding: 20px;
+    height: 700px;
+    width: 100%;
+    background-image: url(img/2.png);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    background-position: center center;
+    background-color: rgb(255, 255, 255,70% );
+}
+
+.portada h2{
+    padding-top: 300px;
+    text-transform: uppercase;
+    font-size: 35pt;
+    
+}
+
+.portada p{
+    font-size: 15pt;
+
+}
+
+.imagen_portada img{
+    height: 300px;
+    max-width: 300px;
+}
+
+.texto_portada{
+    align-items: start;
+    padding-top: 0;
+    margin-top: -260px;
+}
+
+.barra_portada {
+    width: 20%;
+    height: 10px;
+    float: left;
+    margin-top: 0;
+    border: none;
+    background-color: rgb(53, 96, 160);
+    border-color: rgb(53, 96, 160) rgb(53, 96, 160);
+}
+
+.title {
+    font-size: 25pt;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.main {
+    height: 400px;
+    width: 100%;
+}
+
+.catalogo {
+    padding-top: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.producto {
+    height: 200px;
+    width: 150px;
+}
+
+.imagen_producto img{
+    max-height: 150px;
+    border-radius: 30%;
+    box-shadow: 2px 2px 10px black;
+
+}
+
+.imagen_producto a {
+    transition: transform 0.3s ease;
+
+}
+
+.imagen_producto a:hover img,span{
+    transform: scale(1.2);
+}
+
+.footer {
+    margin: 0;
+    height: 300px;
+    width: 100%;
+    background-color: blue;
+}
+
+#infomacion {
+    height: 300px;
+    width: 100%;
+}
+
+/* ESTILO DE INFORMACION DE WORDWALL*/
+.info-wordwall {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /*va a alinear los elemntos a la izquierda*/
+    gap: 400px;
+    margin: 40px 0;
+    padding-left: 60px; /* Te Agrega espacio desde el borde izquierdo */
+}
+
+.info-wordwall-img img {
+    width: 350px; 
+    max-width: 600%;
+    border-radius: 50%;
+}
+
+.info-wordwall-text {
+    max-width: 1000px;
+    font-size: 1.6rem; /*agranda el tamaño del texto WIIIIIIIIIII*/
+}
+
+/* ESTILO DE INFORMACION DE APPRENDEMOS*/
+
+.info-apprendemos {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+    gap: 400px;
+    margin: 40px 0;
+    padding-left: 60px;
+}
+
+.info-apprendemos-img img {
+    width: 350px; 
+    max-width: 600%;
+    border-radius: 50%;
+}
+
+.info-apprendemos-text {
+    max-width: 1000px;
+    font-size: 1.6rem;
+}
